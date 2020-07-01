@@ -1,4 +1,4 @@
-const calculateCost = require("../libs/billing-lib");
+calculateCost = require("../libs/billing-lib");
 
 test("Lowest tier", () => {
   const storage = 10;
